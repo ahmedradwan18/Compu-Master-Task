@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+        android:background="@color/material_grey_100"
+   
+    
+    
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+        android:layout_marginTop="100dp"
+    android:paddingEnd="22dp"
+    android:paddingStart="22dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+    <ImageView
+        android:src="@drawable/logoo"
+        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="22dp"
+        />
+
+    <TextView
+                android:textColor="@android:color/black"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:text="Username"
+        android:id="@+id/usernameTxtView"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+        
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your Username here.."
+        
+       
+        android:id="@+id/usernameEdtTxt"/>
+    
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:text="Password"
+        android:id="@+id/passwordTxtView"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+        
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your Password here.."
+        android:inputType="numberPassword"
+        android:id="@+id/passwordEdtTxt"/>
+
+<Button
+       android:background="@color/material_blue_grey_800"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:padding="16dp"
+android:text="Login"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:id="@+id/loginBtn"/>
+
+
+</LinearLayout>
+  </ScrollView>
